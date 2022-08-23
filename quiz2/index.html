@@ -1,6 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    
+   <!-- Pixel AddToCart  -->
+    <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '5680145632044002');
+  fbq('track', 'AddToCart');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=5680145632044002&ev=AddToCart&noscript=1"
+/></noscript>
+    
+    <!-- End Pixel AddToCart -->
+
+    
+                                   <!-- Verificar domínio -->
+
+<meta name="facebook-domain-verification" content="ynvs0zcqlfuekuaza7vo7zlp75knta" />
+    
+    
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
@@ -46,13 +73,13 @@
             <button onclick="next2()" class="btn btn-warning btn-lg btn-block">A VECES</button>
           </div>
           <div id="p2" class="hide">
-            <h3>02 - ¿Comes azúcar por la noche?</h3>
+            <h3>02 - ¿Quieres Volver a Sentirte Bien?</h3>
             <button onclick="next3()" class="btn btn-success btn-lg btn-block mt-3">SÍ</button>
             <button onclick="next3()" class="btn btn-danger btn-lg btn-block">NO</button>
-            <button onclick="next3()" class="btn btn-warning btn-lg btn-block">CASI NUNCA</button>
+            <button onclick="next3()" class="btn btn-warning btn-lg btn-block">NO SÉ</button>
           </div>
-          <div id="p3" class="hide">
-            <h3>03 - ¿Trabajas en el sector salud?</h3>
+           <div id="p3" class="hide">
+            <h3>03 - En la página siguiente, mostraré un video limitado a unas pocas personas mirando al mismo tiempo... ¿Lo verás hasta el final?</h3>
             <button onclick="next4()" class="btn btn-success btn-lg btn-block mt-3">SÍ</button>
             <button onclick="next4()" class="btn btn-danger btn-lg btn-block">NO</button>
             <button onclick="next4()" class="btn btn-warning btn-lg btn-block">YA TRABAJÉ</button>
@@ -92,7 +119,7 @@
         document.getElementById("p3").classList.remove("hide")
       }
       function next4() {
-        location.href="protocolo-vientre-cero.store" // SEU LINK AQUI
+        location.href="https://protocolo-vientre-cero.store/" // SEU LINK AQUI
       }
     </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
