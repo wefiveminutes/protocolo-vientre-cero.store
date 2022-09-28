@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background-color: #f5f5f5;
+      overflow-x: hidden;
+    }
+    h5 {
+      text-align: center;
+      color: grey;
+      font-size: 16px;
+      font-family: "Arial";
+      padding-top: 15px;
+    }
+    .profile {
+      height: 10.5vh;
+      width: 45vw;
+      margin-top: 15px;
+      border: 1px solid #fff;
+      background-color: #fff;
+      box-shadow: -1px 6px 25px 0px rgba(0, 0, 0, 0.43);
+      
+    }
+    .myflex {
+      display: flex;
+    }
+    .cardflex {
+      display: flex;
+      justify-content: center;
+      margin: 15px;
+    }
+    .info {
+      display: block;
+    }
+    .views{
+      padding-top: 35px;
+      padding-left: 10px;
+    }
+    .foto {
+      width: 60px;
+      margin: 5px;
+    }
+    .nome {
+      color: #1f59dd;
+      font-family: "Cabin", sans-serif;
+      margin-top: 15px;
+    }
+    .center{
+      position: relative;
+      left: 28vw; 
+    }
+    .container {
+        height: 183vh;
+      width: 45vw;
+      position: relative;
+      left: 28vw; 
+      margin-top: 15px;
+      border: 1px solid #fff;
+      background-color: #fff;
+      box-shadow: -1px 6px 25px 0px rgba(0, 0, 0, 0.43);
+    }
+    .Yt{
+      width: 580px;
+      margin-top: 15px;
+    }
+    h1{
+     font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 20px;
+    }
+    .video{
+        position: relative;
+        left: 4vw;
+    }
+    h2{
+    color: #606060;
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    text-align: center;
+    width: 40vw;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .textdown{
+        color: #606060;
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    }
+    button{
+  font-weight: 400;
+    line-height: 20px;
+    color: #fafafa;
+    background-color: #019cfe;
+    box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 50%);
+    min-width: 10px;
+    padding: 18px 50px;
+   margin-left: 13vw;
+   margin-top: 4vh;
+   border: none;
+   cursor: pointer;
+    }
+    button:hover{
+        opacity: .8;
+    }
+    a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+       
+    }
+    h3{
+        font-weight: 600;
+    font-size: 22px;
+    margin-top: 35px;
+    color: #1f59dd;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    }
+    .card{
+        border: 1px solid #000;
+        height: 45vh;
+        width: 15vw;
+        margin: 10px;
+    }
+
+    .cardImg{
+        width: 210px;
+        padding: 25px;
+    }
+    .textCard{
+        font-size: 17px;
+        color: #000;
+        text-align: center;
+    }
+    .textCard:hover{
+        color: #1f59dd;
+
+    }
+    .textofooter{
+        text-align: center;
+        font-size:13px ;
+        width: 50vw;
+        margin-left: 25vw;
+        margin-top: 5vh;
+    }
+    a{
+      cursor: pointer;
+    }
+
+    @media only screen and (max-width: 896px) {
+
+      .textCard{
+        font-size: 13px;
+       
+    }
+
+
+      .center{
+      position: relative;
+      left: 4vw; 
+    }
+
+    .container {
+      position: relative;
+      left: 13vw; 
+    
+    }
+
+    h2{
+    font-size: 15px;
+    width: 70vw;
+    margin-bottom: 5vh;
+    }
+
+
+      .profile {
+      height: 10.5vh;
+      width: 92vw;
+      margin-top: 15px;     
+
+    }
+
+
+    .container {
+        height: 175vh;
+        width: 92vw;
+      position: relative;
+    left: 4vw;
+    }
+ 
+    h1{
+    font-size: 18px;
+   
+    }
+
+    .Yt{
+      width: 83vw;
+      margin-top: 5vh;
+    }
+    button{
+    margin-right: 50px;
+    }
+
+    .cardflex {
+   display: block;
+      margin: 15px;
+    }
+
+    .card{
+        height: 20vh;
+        width: 63vw;
+        margin-left: 11vw;
+    }
+
+
+    .cardImg {
+      margin-left: 6vw;
+    }
+
+    .textofooter{
+        font-size:13px ;
+        width: 70vw;
+        margin-left: 16vw;
+    }
+
+ 
+    button:hover{
+    opacity: 1;
+    }
+
+    .textCard:hover{
+        color: #000;
+
+    }
+
+
+
+    }
+    @media only screen and (max-width: 600px) {
+      .container {
+        height: 285vh;
+        
+    }
+    .card{
+        height: 40vh;
+        width: 63vw;
+        margin-left: 11vw;
+    }
+
+    .foto {
+      width: 45px;
+      margin: 8px;
+    }
+    .textofooter{
+      text-align: justify;
+    }
+        }
+
+  </style>
+  <body>
+    <header>
+        <h5>Advertorial</h5>
+        <div class="center">
+
+            <div class="profile">
+              <div class="myflex">
+                <div><img src="profile.jpeg" class="foto"></div>
+                <div class="info">
+                  <div ><p class="nome">Amelia Cabello</p></div>
+                  <div class="data"><input type="date" /></div>
+                </div>
+                <div class="views"><p>61,783 views</p></div>
+              </div>
+            </div>
+          </header>
+      
+          <main>
+            <div class="container">
+              <h1>¡Esta Rutina Matutina de 30 segundos DERRITE la grasa de tu vientre, brazos y caderas en un tiempo récord!</h1>
+
+                <div class="video">
+               <a href="https://protocolo-vientre-cero.store/"><img class="Yt" src="ytimg.jpeg"></a>   
+                </div>
+                
+                <h2>
+                  Si está luchando para deshacerse de esos kilos obstinados y nada más funciona, incluso las dietas de moda o el ejercicio agotador ya no funcionan. Debes ver este video. <br>
+                  Una rutina matutina simple de 30 segundos, como se explica en este video secreto, activa las células de su cuerpo que aceleran su metabolismo y lo preparan para qu emar más grasa en el abdomen,
+                   la espalda, los muslos y los brazos de manera más eficiente que 60 minutos agotadores en un gimnasia.
+
+                </h2>
+                <p class="textdown">In fact, some folks are losing up to 23lbs of fat in just 21 days by this
+                     tropical method as described in this Free video presentation.</p>
+                <p class="textdown">Watch this video before vested interests in the weight loss industry force it to be taken down...</p>
+
+                <a href="https://protocolo-vientre-cero.store/"> <button> Haz click aquí para ver el vídeo</button></a> 
+                <h3>En Este Video Gratis Lo Descubrirás</h3>
+                <hr>
+
+
+            <div class="cardflex">
+                <div class="card">
+                    <a href="https://protocolo-vientre-cero.store/">
+
+                        <img class="cardImg" src="card1.jpeg" >
+                        <p class="textCard">¡La Rutina Matutina de 30 segundos que te hace adelgazar sin salir de casa!</p>
+
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://protocolo-vientre-cero.store/">
+
+                        <img class="cardImg" src="card2.jpeg" >
+                        <p class="textCard">Un simple ingrediente para el desayuno que acelera tu metabolismo...</p>
+
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://protocolo-vientre-cero.store/">
+
+                        <img class="cardImg" src="card3.jpeg" >
+                        <p class="textCard">El descubrimiento de Harvard que te ayuda a derretir la grasa abdominal en un tiempo récord...  </p>
+
+                    </a>
+                </div>
+            </div>
+            </div>
+
+
+              <p class="textofooter">Este é um anúncio e não um artigo de notícias real, blog ou atualização de proteção ao consumidor
+                <br>
+                <br>
+              AVISO LEGAL
+              <br>
+              <br>
+              As declarações relativas à eficácia e segurança dos produtos/suplementos/métodos mencionados neste site ou nas próximas 
+                  páginas/páginas vinculadas a partir deste site não foram avaliadas pela Food and Drug Administration. A FDA avalia apenas 
+                  alimentos e medicamentos, não suplementos como esses produtos. Os produtos/suplementos/métodos/informações aqui mencionados 
+                  não se destinam a diagnosticar, prevenir, tratar ou curar qualquer doença. Clique aqui para encontrar evidências de testes, 
+                  análises, pesquisas ou estudos que descrevem os benefícios, desempenho ou eficácia dos produtos/suplementos/métodos mencionados 
+                  nesta página, ou sites vinculados a esta página com base na experiência de profissionais relevantes.
+              <br>
+              <br>
+              Este site não se destina a fornecer aconselhamento médico ou substituir o aconselhamento e tratamento médico de seu médico
+                   pessoal/profissionais de saúde. Os visitantes são aconselhados a consultar seus próprios médicos ou outros profissionais de saúde
+                    qualificados sobre o tratamento de condições médicas. Os autores/proprietários do site não são especialistas médicos e não devem
+                     ser responsabilizados por qualquer mal-entendido ou uso indevido das informações contidas neste site, ou por qualquer perda, dano 
+                     ou lesão causada, ou alegadamente causada, direta ou indiretamente, por qualquer tratamento, ação ou aplicação de qualquer suplemento,
+                      erva, alimento ou fonte de alimento discutido neste site.
+  
+            </p>
+
+
+          </main>
+        </div>
+  </body>
+</html>
